@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
 
-import com.ibm.json.java.JSONObject;
+import com.api.json.JSONObject;
 import com.ibm.streamsx.topology.TStream;
 import com.ibm.streamsx.topology.Topology;
 import com.ibm.streamsx.topology.context.ContextProperties;

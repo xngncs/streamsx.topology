@@ -24,7 +24,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.ibm.json.java.JSONObject;
+import com.api.json.JSONObject;
 import com.ibm.streams.operator.types.Blob;
 import com.ibm.streams.operator.types.ValueFactory;
 import com.ibm.streams.operator.types.XML;

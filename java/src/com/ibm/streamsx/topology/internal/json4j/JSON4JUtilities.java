@@ -8,7 +8,7 @@ import java.io.IOException;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.ibm.json.java.JSONObject;
+import com.api.json.JSONObject;
 
 public class JSON4JUtilities {
 

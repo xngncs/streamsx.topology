@@ -41,7 +41,7 @@ public interface AnalyticsServiceProperties {
      * <UL>
      * <LI>{@code java.io.File} - File containing the VCAP services JSON.</LI>
      * <LI>{@code String} - String containing the VCAP services serialized JSON.</LI>
-     * <LI>{@code com.ibm.json.java.JSONObject} - JSON object containing the VCAP services.</LI>
+     * <LI>{@code com.api.json.JSONObject} - JSON object containing the VCAP services.</LI>
      * </UL>
      * If not set then the environment variable {@code VCAP_SERVICES} is assumed
      * to contain service definitions directly or a file name containing the definitions.

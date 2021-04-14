@@ -44,7 +44,7 @@
   <path id="streams.classpath">
     <pathelement location="${streams.install}/lib/com.ibm.streams.operator.samples.jar" />
     <pathelement location="${streams.install}/lib/com.ibm.streams.operator.jar" />
-    <pathelement location="${streams.install}/ext/lib/JSON4J.jar" />
+    <pathelement location="${streams.install}/ext/lib/API4JSON-2.0.jar" />
   </path>
   <path id="httpclient.classpath">
         <fileset dir="${tk.opt}/client/httpcomponents-client-4.5.13/lib">

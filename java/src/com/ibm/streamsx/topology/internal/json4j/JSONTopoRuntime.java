@@ -4,7 +4,7 @@
  */
 package com.ibm.streamsx.topology.internal.json4j;
 
-import com.ibm.json.java.JSONObject;
+import com.api.json.JSONObject;
 import com.ibm.streams.operator.Tuple;
 import com.ibm.streams.operator.encoding.EncodingFactory;
 import com.ibm.streamsx.topology.function.Function;

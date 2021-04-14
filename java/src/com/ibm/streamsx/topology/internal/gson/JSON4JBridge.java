@@ -22,7 +22,7 @@ public class JSON4JBridge {
     static {
         Class<?> clazz;
         try {
-            clazz = Class.forName("com.ibm.json.java.JSONObject");
+            clazz = Class.forName("com.api.json.JSONObject");
         } catch (ClassNotFoundException e) {
             clazz = null;
         }
@@ -37,7 +37,7 @@ public class JSON4JBridge {
     public static boolean isJson4JClass(Type type) {
         if (type instanceof Class) {
             Class<?> clazz = (Class<?>) type;
-            return "com.ibm.json.java.JSONObject".equals(clazz.getName());
+            return "com.api.json.JSONObject".equals(clazz.getName());
         }
         return false;
     }

@@ -15,8 +15,8 @@ import java.util.concurrent.Future;
 import java.util.logging.Logger;
 
 import com.google.gson.JsonObject;
-import com.ibm.json.java.JSONArray;
-import com.ibm.json.java.JSONObject;
+import com.api.json.JSONArray;
+import com.api.json.JSONObject;
 import com.ibm.streams.operator.version.Product;
 import com.ibm.streamsx.topology.Topology;
 import com.ibm.streamsx.topology.context.ContextProperties;

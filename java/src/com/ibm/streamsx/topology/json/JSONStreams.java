@@ -8,10 +8,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ibm.json.java.JSON;
-import com.ibm.json.java.JSONArray;
-import com.ibm.json.java.JSONArtifact;
-import com.ibm.json.java.JSONObject;
+import com.api.json.JSON;
+import com.api.json.JSONArray;
+import com.api.json.JSONArtifact;
+import com.api.json.JSONObject;
 import com.ibm.streams.operator.OutputTuple;
 import com.ibm.streamsx.topology.TStream;
 import com.ibm.streamsx.topology.function.BiFunction;
@@ -24,7 +24,7 @@ import com.ibm.streamsx.topology.tuple.JSONAble;
  * Utilities for JSON streams.
  * 
  * A JSON stream is a stream of JSON objects represented
- * by the class {@code com.ibm.json.java.JSONObject}.
+ * by the class {@code com.api.json.JSONObject}.
  * When a JSON value that is an array or value (not an object)
  * needs to be present on the stream, the approach is to
  * represent it as a object with the key {@link #PAYLOAD payload}
@@ -270,7 +270,7 @@ public class JSONStreams {
                                 flattened.put(PAYLOAD, av);
                             }
                             if (additional != null) {
-                                for (Object addKey : additional.keySet()) {
+                                for (String addKey : additional.keySet()) {
                                     if (!flattened.containsKey(addKey))
                                         flattened.put(addKey, additional.get(addKey));
                                 }

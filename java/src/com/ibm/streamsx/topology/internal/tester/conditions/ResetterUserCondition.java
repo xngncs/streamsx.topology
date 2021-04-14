@@ -38,15 +38,10 @@ public final class ResetterUserCondition extends UserCondition<Void>
     /**
      * Add the Resetter operator (no ports) that discovers the
      * consistent regions using JCP and randomly resets them.
+     * @deprecated since the removal of JCP.
      */
     @Override
     public void addTo(Topology topology, String conditionName) {
-        Map<String, Object> params = new HashMap<>();
-        params.put("conditionName", conditionName);
-        if (minimumResets != null)
-            params.put("minimumResets", minimumResets);
-        BOperatorInvocation op = topology.builder().addSPLOperator("ConsistentRegionResetter",
-                "com.ibm.streamsx.topology.testing.consistent::Resetter", params);
-        op.layout().addProperty("hidden", true);
+
     }
 }

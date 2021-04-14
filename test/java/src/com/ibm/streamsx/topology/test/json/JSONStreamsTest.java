@@ -20,10 +20,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.ibm.json.java.JSON;
-import com.ibm.json.java.JSONArray;
-import com.ibm.json.java.JSONArtifact;
-import com.ibm.json.java.JSONObject;
+import com.api.json.JSON;
+import com.api.json.JSONArray;
+import com.api.json.JSONArtifact;
+import com.api.json.JSONObject;
 import com.ibm.streamsx.topology.TStream;
 import com.ibm.streamsx.topology.Topology;
 import com.ibm.streamsx.topology.function.UnaryOperator;

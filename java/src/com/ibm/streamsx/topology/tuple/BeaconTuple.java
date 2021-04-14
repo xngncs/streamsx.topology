@@ -6,7 +6,7 @@ package com.ibm.streamsx.topology.tuple;
 
 import java.io.Serializable;
 
-import com.ibm.json.java.JSONObject;
+import com.api.json.JSONObject;
 import com.ibm.streamsx.topology.streams.BeaconStreams;
 
 /**
